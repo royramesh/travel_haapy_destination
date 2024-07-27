@@ -6,23 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>HAPPY DESTINATION</title>
     <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
-    <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/all.min.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        .whatsapp-circle {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            background-color: #25D366;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 999;
+        }
+        .whatsapp-circle:hover {
+            background-color: #20b55c;
+        }
+        .whatsapp-circle i {
+            font-size: 24px;
+        }
+    </style>
 </head>
 
-<body>
-
-    <!-- ################# Header Starts Here#######################--->
+    <body>
+    
+<!-- ################# Header Starts Here#######################--->
 
     <header class="continer-fluid ">
-        <div class="header-top">
+        <a href="https://wa.me/7439618585" class="whatsapp-circle" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <div  class="header-top">
             <div class="container">
                 <div class="row col-det">
                     <div class="col-lg-6 d-none d-lg-block">
@@ -30,30 +54,26 @@
                             <li>
                                 <i class="far fa-envelope"></i>
                                 happydestination.smile@gmail.com
-                                <span>|</span>
-                            </li>
+                                <span>|</span></li>
                             <li>
                                 <i class="fas fa-phone-volume"></i>
-                                +91 7439618585
-                            </li>
+                                +91 7439618585</li>
                         </ul>
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <ul class="ulright">
                             <li>
-                                <a href="https://www.facebook.com/profile.php?id=100091766001692&mibextid=ZbWKwL"
-                                    target="_blank">
+                                <a href="https://www.facebook.com/profile.php?id=100091766001692&mibextid=ZbWKwL" target="_blank">
                                     <i class="fab fa-facebook-square"></i> facebook
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/happy.destination.silkroute?utm_source=qr&igsh=c3VuZm1iODQzZWIy"
-                                    target="_blank">
+                                <a href="https://www.instagram.com/happy.destination.silkroute?utm_source=qr&igsh=c3VuZm1iODQzZWIy" target="_blank">
                                     <i class="fab fa-instagram"></i> instagram
                                 </a>
                             </li>
                         </ul>
-
+                        
                     </div>
                 </div>
             </div>
@@ -63,49 +83,50 @@
                 <div class="row nav-row">
                     <div class="col-lg-3 col-md-12 logo">
                         <a href="index.html">
-                            <img src="assets/images/logo.png" alt="" class="img-fluid"
-                                style="height: 80px; width: 80px;">
-                            <a data-toggle="collapse" data-target="#menu" href="#menu"><i
-                                    class="fas d-block d-lg-none  small-menu fa-bars"></i></a>
+                            <img src="assets/images/logo.png" alt="" class="img-fluid" style="height: 80px; width: 80px;">
+                            <a data-toggle="collapse" data-target="#menu" href="#menu"><i class="fas d-block d-lg-none  small-menu fa-bars"></i></a>
                         </a>
 
                     </div>
                     <div id="menu" class="col-lg-9 col-md-12 d-none d-lg-block nav-col">
-
-                        <ul class="navbad">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="index.html">HOME
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about_us.html">ABOUT US</a>
-                            </li>
-                            <!-- <li class="nav-item">
+                       
+                                <ul class="navbad">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="index.html">HOME
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about_us.html">ABOUT US</a>
+                                    </li>
+                                    <!-- <li class="nav-item">
                                         <a class="nav-link" href="packages.html">Packages</a>
                                     </li> -->
+                                    
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="service.html">SERVICES</a>
+                                    </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="service.html">SERVICES</a>
-                            </li>
-
-                            <!-- <li class="nav-item">
+                                    <!-- <li class="nav-item">
                                         <a class="nav-link" href="blog.html">Blog</a>
                                     </li> -->
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact_us.html">CONTACT US</a>
-                            </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact_us.html">CONTACT US</a>
+                                    </li>
 
 
 
 
-                        </ul>
-
-
+                                </ul>
+                                
+                           
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
     </header>
+    <a href="https://wa.me/1234567890" class="whatsapp-circle" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
     <div class="slider container-fluid">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -153,87 +174,6 @@
             </a>
         </div>
     </div>
-
-    <!-- ################# Why Choos US Starts Here #######################--->
-
-    <!-- <div class="why-choos-us container-fluid">
-       <div class="container">
-          <div class="session-title">
-                <h2>Why Choos Us ?</h2>
-                <p>Sagittis vulputate magna sagittis sagittis erat feugiat nullam cubilia amet dignissim Euismod.</p>
-            </div>
-            <div class="why-ro row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="col-card">
-                        <div class="icon">
-                            <i class="far fa-calendar-plus"></i>
-                        </div>
-                        <div class="detail">
-                            <h4>Easy Booking</h4>
-                            <p>Turpis accumsan. Proin id ligula suspendisse. Aliquet fringilla, aptent eu dignissim.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="col-card">
-                        <div class="icon">
-                            <i class="fas fa-dollar-sign"></i>
-                        </div>
-                        <div class="detail">
-                            <h4>Value for Money</h4>
-                            <p>Turpis accumsan. Proin id ligula suspendisse. Aliquet fringilla, aptent eu dignissim.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="col-card">
-                        <div class="icon">
-                           <i class="far fa-heart"></i>
-                        </div>
-                        <div class="detail">
-                            <h4>Passionate Travel</h4>
-                            <p>Turpis accumsan. Proin id ligula suspendisse. Aliquet fringilla, aptent eu dignissim.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="col-card">
-                        <div class="icon">
-                           <i class="fas fa-map-marked-alt"></i>
-                        </div>
-                        <div class="detail">
-                            <h4>Awesome Places</h4>
-                            <p>Turpis accumsan. Proin id ligula suspendisse. Aliquet fringilla, aptent eu dignissim.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="col-card">
-                        <div class="icon">
-                            <i class="fas fa-car"></i>
-                        </div>
-                        <div class="detail">
-                            <h4>Diverse Destinations</h4>
-                            <p>Turpis accumsan. Proin id ligula suspendisse. Aliquet fringilla, aptent eu dignissim.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="col-card">
-                        <div class="icon">
-                            <i class="far fa-comments"></i>
-                        </div>
-                        <div class="detail">
-                            <h4>24 x 7 Support</h4>
-                            <p>Turpis accumsan. Proin id ligula suspendisse. Aliquet fringilla, aptent eu dignissim.</p>
-                        </div>
-                    </div>
-                </div>
-                
-            </div> 
-       </div>
-    </div> -->
-
     <!-- ################# Popular Packages Starts Here #######################--->
 
     <div class="popular-pack no-bgpack container-fluid">
@@ -383,8 +323,6 @@
         <div class="container">
             <div class="session-title">
                 <h2>Our Destinations</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin nisi id consequat
-                    bibendum. Phasellus at convallis elit. In purus enim, scelerisque id arcu vitae</p>
             </div>
             <div class="dest-row row">
                 <div class="col-lg-4 col-md-6">
@@ -423,99 +361,6 @@
         </div>
 
     </div>
-
-
-    <!--################### Tour Type Starts Here #######################--->
-    <!-- <div id="why" class="our-capablit container-fluid">
-           <div class="layy">
-               <div class="container">
-                  <div class="session-title">
-                    <h2>Tour Type</h2>
-
-                </div>
-                  <div class="row mt-5">
-                    <div class="col-md-3 col-sm-6">
-                       <div class="cap-det">
-                           <div class="icon">
-                               <i class="fas fa-walking"></i>
-                           </div>
-                           <h6>Walking</h6>
-                          
-                       </div>
-                   </div>
-                    <div class="col-md-3 col-sm-6">
-                       <div class="cap-det">
-                           <div class="icon">
-                               <i class="fas fa-car"></i>
-                           </div>
-                           <h6>Safari</h6>
-                          
-                       </div>
-                   </div>
-                    <div class="col-md-3 col-sm-6">
-                       <div class="cap-det">
-                           <div class="icon">
-                              <i class="fas fa-fire"></i>
-                           </div>
-                           <h6>Camp Fire</h6>
-                          
-                       </div>
-                   </div>
-                   
-                    <div class="col-md-3 col-sm-6">
-                       <div class="cap-det">
-                           <div class="icon">
-                               <i class="fab fa-fly"></i>
-                           </div>
-                           <h6>Air Ride</h6>
-                          
-                       </div>
-                   </div>
-                   
-                    <div class="col-md-3 col-sm-6">
-                       <div class="cap-det">
-                           <div class="icon">
-                               <i class="fas fa-ship"></i>
-                           </div>
-                           <h6>Cruise</h6>
-                          
-                       </div>
-                   </div>
-                   
-                    <div class="col-md-3 col-sm-6">
-                       <div class="cap-det">
-                           <div class="icon">
-                               <i class="fas fa-suitcase-rolling"></i>
-                           </div>
-                           <h6>Hiking</h6>
-                          
-                       </div>
-                   </div>
-                   
-                    <div class="col-md-3 col-sm-6">
-                       <div class="cap-det">
-                           <div class="icon">
-                              <i class="fas fa-hippo"></i>
-                           </div>
-                           <h6>Wild Life</h6>
-                          
-                       </div>
-                   </div>
-                   
-                    <div class="col-md-3 col-sm-6">
-                       <div class="cap-det">
-                           <div class="icon">
-                               <i class="fas fa-baseball-ball"></i>
-                           </div>
-                           <h6>Sports</h6>
-                          
-                       </div>
-                   </div>
-                  </div>
-               </div>
-           </div>
-       </div>  -->
-
 
     <!--################### Tour Review Starts Here #######################--->
 
@@ -761,5 +606,6 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <!-- Bootstrap JavaScript -->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
 
 </html>
