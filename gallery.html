@@ -4,14 +4,71 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Travelet Free Website Tempalte | Smarteyeapps.com</title>
-    <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
+    <title>HAPPY DESTINATION</title>
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="assets/images/fav.jpg">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/all.min.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        .whatsapp-circle {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            background-color: #25D366;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 999;
+        }
+        .whatsapp-circle:hover {
+            background-color: #20b55c;
+        }
+        .whatsapp-circle i {
+            font-size: 24px;
+        }
+        .logo-container {
+             display: flex;
+            align-items: center; /* Center items vertically */
+            flex-wrap: nowrap; /* Prevent wrapping */
+            justify-content: space-between; /* Space between logo and text */
+        }
+
+        .logo-container img {
+            height: 80px;
+            width: 80px;
+            margin-right: 15px; /* Space between the logo and text */
+        }
+
+        .logo-container h4 {
+            margin: 0; /* Remove default margin */
+            font-size: 1.5rem; /* Adjust font size as needed */
+            color: white;
+            text-wrap: nowrap;
+        }
+
+        .small-menu {
+            display: none; /* Hide by default */
+        }
+
+        @media (max-width: 992px) {
+            .small-menu {
+                display: block; /* Show on smaller screens */
+            }
+
+            .logo-container h4 {
+                font-size: 1rem;
+            }
+        }
+    </style>
 </head>
 
     <body>
@@ -19,35 +76,37 @@
 <!-- ################# Header Starts Here#######################--->
 
     <header class="continer-fluid ">
+        <a href="https://wa.me/7439618585" class="whatsapp-circle" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
         <div  class="header-top">
-            <div class="container">
+            <div class="">
                 <div class="row col-det">
                     <div class="col-lg-6 d-none d-lg-block">
                         <ul class="ulleft">
                             <li>
                                 <i class="far fa-envelope"></i>
-                                sales@smarteyeapps.com
+                                happydestination.smile@gmail.com
                                 <span>|</span></li>
                             <li>
                                 <i class="fas fa-phone-volume"></i>
-                                +876 987 666 5433</li>
+                                +91 7439618585</li>
                         </ul>
                     </div>
                     <div class="col-lg-6 col-md-12">
-                        <ul class="ulright">
+                        <ul class="ulright" >
                             <li>
-                                <i class="fab fa-facebook-square"></i>
+                                <a href="https://www.facebook.com/profile.php?id=100091766001692&mibextid=ZbWKwL" target="_blank" style="color: white;">
+                                    <i class="fab fa-facebook-square"></i> facebook
+                                </a>
                             </li>
                             <li>
-                                <i class="fab fa-twitter-square"></i>
-                            </li>
-                            <li>
-                                <i class="fab fa-instagram"></i>
-                            </li>
-                            <li>
-                                <i class="fab fa-linkedin"></i>
+                                <a href="https://www.instagram.com/happy.destination.silkroute?utm_source=qr&igsh=c3VuZm1iODQzZWIy" target="_blank" style="color: white;">
+                                    <i class="fab fa-instagram"></i> instagram
+                                </a>
                             </li>
                         </ul>
+                        
                     </div>
                 </div>
             </div>
@@ -55,41 +114,39 @@
         <div id="menu-jk" class="header-bottom">
             <div class="container">
                 <div class="row nav-row">
-                    <div class="col-lg-3 col-md-12 logo">
-                        <a href="index.html">
-                            <img src="assets/images/logo.png" alt="">
-                            <a data-toggle="collapse" data-target="#menu" href="#menu"><i class="fas d-block d-lg-none  small-menu fa-bars"></i></a>
+                    <div class="col-lg-3 col-md-12 logo-container">
+                        <a href="index.html" class="d-flex align-items-center text-decoration-none">
+                            <img src="assets/images/logo.png" alt="Logo" class="img-fluid">
+                            <h4 class="mb-0">Happy Destination</h4>
+                            <a data-toggle="collapse" data-target="#menu" href="#menu" class="d-block d-lg-none ml-3">
+                                <i class="fas fa-bars small-menu"></i>
+                            </a>
                         </a>
-
                     </div>
                     <div id="menu" class="col-lg-9 col-md-12 d-none d-lg-block nav-col">
                        
                                 <ul class="navbad">
                                     <li class="nav-item active">
-                                        <a class="nav-link" href="index.html">Home
+                                        <a class="nav-link" href="index.html">HOME
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="about_us.html">About Us</a>
+                                        <a class="nav-link" href="about_us.html">ABOUT US</a>
                                     </li>
-                                    <li class="nav-item">
+                                    <!-- <li class="nav-item">
                                         <a class="nav-link" href="packages.html">Packages</a>
-                                    </li>
+                                    </li> -->
                                     
                                     <li class="nav-item">
-                                        <a class="nav-link" href="gallery.html">Gallery</a>
+                                        <a class="nav-link" href="property.html">OUR PROPERTY</a>
                                     </li>
 
-                                    <li class="nav-item">
+                                    <!-- <li class="nav-item">
                                         <a class="nav-link" href="blog.html">Blog</a>
-                                    </li>
+                                    </li> -->
                                     <li class="nav-item">
-                                        <a class="nav-link" href="contact_us.html">Contact US</a>
+                                        <a class="nav-link" href="contact_us.html">CONTACT US</a>
                                     </li>
-
-
-
-
                                 </ul>
                                 
                            
@@ -98,7 +155,6 @@
             </div>
         </div> 
     </header>
- 
 
     
     <!--  ************************* Page Title Starts Here ************************** -->
