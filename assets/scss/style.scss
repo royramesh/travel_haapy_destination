@@ -62,7 +62,7 @@ header{
   @media screen and (max-width: 991px){
       padding: 0px;
   }  
-    padding: 6px;
+   
       background-color: #334960;
     img{
      
@@ -137,7 +137,7 @@ header{
 }
 
 .scroll-to-fixed-fixed{
-  padding: 5px !important;
+  // padding: 5px !important;
 }
 
 /* ===================================== Responsive Style CSS ==================================== */
@@ -686,8 +686,33 @@ address{
   margin-bottom: 30px; }
 
 
+  .session-title {
+    text-align: center;
+    margin: 30px 0;
+}
 
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.btn-primary {
+    margin-top: 10px;
+}
+
+.carousel-inner img {
+    height: 200px; /* Set height of carousel images */
+    object-fit: cover;
+    width: 100%;
+}
 
 /* ===================================== Responsive Style CSS ==================================== */
 
 @import 'response/responsive';
+
+
+
